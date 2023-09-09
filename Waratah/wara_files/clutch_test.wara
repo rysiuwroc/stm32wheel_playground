@@ -1,0 +1,14 @@
+[[applicationCollection]]
+usage = ['Simulation Controls', 'Automobile Simulation Device']
+
+    [[applicationCollection.inputReport]]
+
+        [[applicationCollection.inputReport.variableItem]]
+        name = 'Clutch 1'
+        usage = ['Simulation Controls','Clutch']
+        logicalValueRange = [0, 255]
+
+        [[applicationCollection.inputReport.variableItem]]
+        name = 'Clutch 2'
+        usage = ['Simulation Controls','Clutch']
+        logicalValueRange = [0, 255]
