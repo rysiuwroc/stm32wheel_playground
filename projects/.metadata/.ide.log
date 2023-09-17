@@ -1,0 +1,137 @@
+2023-09-18 00:03:29,792 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2, USB_OTG_FS]
+2023-09-18 00:03:32,306 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,669x399,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-18 00:04:08,786 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 562295368 Bytes (888143872)
+2023-09-18 00:04:10,825 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 678160968 Bytes (888143872)
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-18 00:04:11,144 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-18 00:04:11,145 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-18 00:04:11,220 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\license.tmp_save
+2023-09-18 00:04:11,255 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\license.tmp
+2023-09-18 00:04:11,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\gpio.c_save
+2023-09-18 00:04:11,302 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\gpio.c
+2023-09-18 00:04:11,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\gpio.h_save
+2023-09-18 00:04:11,333 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\gpio.h
+2023-09-18 00:04:11,358 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-18 00:04:11,363 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-18 00:04:11,394 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-18 00:04:11,397 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-18 00:04:11,421 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-18 00:04:11,424 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-18 00:04:11,458 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-18 00:04:11,460 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-18 00:04:11,494 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-18 00:04:11,546 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-18 00:04:11,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\usart.c_save
+2023-09-18 00:04:11,592 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\usart.c
+2023-09-18 00:04:11,596 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\usart.h_save
+2023-09-18 00:04:11,627 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\usart.h
+2023-09-18 00:04:11,629 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-18 00:04:11,635 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.c_save
+2023-09-18 00:04:11,665 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.c
+2023-09-18 00:04:11,668 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.h_save
+2023-09-18 00:04:11,699 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.h
+2023-09-18 00:04:11,703 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-18 00:04:11,750 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.h
+2023-09-18 00:04:11,753 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-18 00:04:11,792 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.c
+2023-09-18 00:04:11,795 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.h_save
+2023-09-18 00:04:11,822 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.h
+2023-09-18 00:04:11,825 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.c_save
+2023-09-18 00:04:11,856 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.c
+2023-09-18 00:04:11,860 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-18 00:04:11,888 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-18 00:04:11,891 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-18 00:04:11,922 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-18 00:04:11,930 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_it.c_save
+2023-09-18 00:04:11,990 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_it.c
+2023-09-18 00:04:11,994 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_it.h_save
+2023-09-18 00:04:12,022 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_it.h
+2023-09-18 00:04:12,029 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-18 00:04:12,064 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_hal_msp.c
+2023-09-18 00:04:12,067 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\system.tmp_save
+2023-09-18 00:04:12,092 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\system.tmp
+2023-09-18 00:04:12,097 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-18 00:04:12,127 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-18 00:04:12,142 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\main.h_save
+2023-09-18 00:04:12,169 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\main.h
+2023-09-18 00:04:12,172 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\main.c_save
+2023-09-18 00:04:12,210 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\main.c
+2023-09-18 00:04:12,466 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 117mS.
+2023-09-18 00:04:12,469 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-18 00:04:12,550 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-18 00:04:13,208 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 739mS.
+2023-09-18 00:04:13,209 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-18 00:04:13,213 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-18 00:05:31,146 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 348754872 Bytes (1059061760)
+2023-09-18 00:05:33,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 377588664 Bytes (1059061760)
+2023-09-18 00:05:36,220 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 430017464 Bytes (1059061760)
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-18 00:05:36,429 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-18 00:05:36,429 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-18 00:05:36,486 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\license.tmp_save
+2023-09-18 00:05:36,512 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\license.tmp
+2023-09-18 00:05:36,527 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\gpio.c_save
+2023-09-18 00:05:36,556 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\gpio.c
+2023-09-18 00:05:36,558 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\gpio.h_save
+2023-09-18 00:05:36,584 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\gpio.h
+2023-09-18 00:05:36,607 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-18 00:05:36,610 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-18 00:05:36,637 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-18 00:05:36,639 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-18 00:05:36,663 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-18 00:05:36,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-18 00:05:36,694 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-18 00:05:36,696 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-18 00:05:36,729 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-18 00:05:36,813 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-18 00:05:36,818 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\usart.c_save
+2023-09-18 00:05:36,859 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\usart.c
+2023-09-18 00:05:36,862 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\usart.h_save
+2023-09-18 00:05:36,889 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\usart.h
+2023-09-18 00:05:36,891 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-18 00:05:36,895 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.c_save
+2023-09-18 00:05:36,926 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.c
+2023-09-18 00:05:36,929 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.h_save
+2023-09-18 00:05:36,957 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usb_device.h
+2023-09-18 00:05:36,960 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-18 00:05:36,988 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.h
+2023-09-18 00:05:36,992 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-18 00:05:37,025 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\Target\usbd_conf.c
+2023-09-18 00:05:37,029 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.h_save
+2023-09-18 00:05:37,056 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.h
+2023-09-18 00:05:37,059 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.c_save
+2023-09-18 00:05:37,092 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_desc.c
+2023-09-18 00:05:37,096 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-18 00:05:37,124 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-18 00:05:37,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-18 00:05:37,159 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-18 00:05:37,166 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_it.c_save
+2023-09-18 00:05:37,197 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_it.c
+2023-09-18 00:05:37,200 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_it.h_save
+2023-09-18 00:05:37,226 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_it.h
+2023-09-18 00:05:37,232 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-18 00:05:37,268 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\stm32l4xx_hal_msp.c
+2023-09-18 00:05:37,270 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\system.tmp_save
+2023-09-18 00:05:37,296 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\MXTmpFiles\system.tmp
+2023-09-18 00:05:37,300 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-18 00:05:37,329 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-18 00:05:37,344 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\main.h_save
+2023-09-18 00:05:37,373 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Inc\main.h
+2023-09-18 00:05:37,375 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\main.c_save
+2023-09-18 00:05:37,412 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\usb_hid_test\Core\Src\main.c
+2023-09-18 00:05:37,689 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 104mS.
+2023-09-18 00:05:37,692 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-18 00:05:37,770 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-18 00:05:38,360 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 668mS.
+2023-09-18 00:05:38,360 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-18 00:05:38,363 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
