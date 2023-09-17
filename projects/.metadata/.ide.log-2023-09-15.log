@@ -1,0 +1,118 @@
+2023-09-16 00:51:00,117 [INFO] Gpio:273 - dependency for GPIO [RCC, SYS, USART2]
+2023-09-16 00:51:00,143 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 00:51:11,274 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 466490096 Bytes (1073741824)
+2023-09-16 00:51:11,814 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 501619392 Bytes (1073741824)
+2023-09-16 00:51:12,589 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 613290728 Bytes (1073741824)
+2023-09-16 00:51:12,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 00:51:12,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 00:51:12,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 00:51:12,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 00:51:12,682 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 00:51:12,682 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 00:51:12,783 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 00:51:12,816 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 00:51:12,829 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 00:51:12,862 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 00:51:12,866 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 00:51:12,892 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 00:51:12,924 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 00:51:12,967 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 00:51:12,970 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 00:51:12,997 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 00:51:13,003 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 00:51:13,062 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 00:51:13,065 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 00:51:13,092 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 00:51:13,098 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 00:51:13,134 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 00:51:13,136 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 00:51:13,161 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 00:51:13,167 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 00:51:13,197 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 00:51:13,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 00:51:13,251 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 00:51:13,254 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 00:51:13,290 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 00:51:13,702 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 147mS.
+2023-09-16 00:51:13,704 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 00:51:13,782 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 00:51:14,297 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 593mS.
+2023-09-16 00:51:14,298 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 00:51:14,299 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 00:52:22,331 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 446002592 Bytes (1073741824)
+2023-09-16 00:52:22,422 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 00:52:22,422 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 00:52:22,422 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 00:52:22,422 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 00:52:22,422 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 00:52:22,423 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 00:52:22,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 00:52:22,536 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 00:52:22,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 00:52:22,584 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 00:52:22,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 00:52:22,613 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 00:52:22,644 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 00:52:22,682 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 00:52:22,685 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 00:52:22,712 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 00:52:22,717 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 00:52:22,748 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 00:52:22,751 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 00:52:22,778 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 00:52:22,784 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 00:52:22,820 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 00:52:22,822 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 00:52:22,847 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 00:52:22,851 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 00:52:22,881 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 00:52:22,895 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 00:52:22,927 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 00:52:22,931 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 00:52:22,966 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 00:52:23,284 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 126mS.
+2023-09-16 00:52:23,286 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 00:52:23,361 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 00:52:23,855 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 569mS.
+2023-09-16 00:52:23,855 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 00:52:23,857 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 00:53:29,031 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 468350472 Bytes (1073741824)
+2023-09-16 00:53:29,508 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 510819848 Bytes (1073741824)
+2023-09-16 00:53:29,589 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 00:53:29,591 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 00:53:29,591 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 00:53:29,591 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 00:53:29,591 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 00:53:29,591 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 00:53:29,670 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 00:53:29,695 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 00:53:29,713 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 00:53:29,742 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 00:53:29,746 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 00:53:29,773 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 00:53:29,807 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 00:53:29,848 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 00:53:29,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 00:53:29,879 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 00:53:29,886 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 00:53:29,915 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 00:53:29,918 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 00:53:29,945 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 00:53:29,952 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 00:53:29,987 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 00:53:29,989 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 00:53:30,015 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 00:53:30,020 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 00:53:30,050 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 00:53:30,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 00:53:30,094 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 00:53:30,097 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 00:53:30,132 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 00:53:30,460 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 117mS.
+2023-09-16 00:53:30,462 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 00:53:30,539 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 00:53:31,060 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 598mS.
+2023-09-16 00:53:31,061 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 00:53:31,081 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 12:20:19,036 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2023-09-16 12:21:25,196 [WARN] MainPanel:272 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>

@@ -1,0 +1,14 @@
+[[applicationCollection]]
+usage = ['Generic Desktop', 'Gamepad']
+
+    [[applicationCollection.inputReport]]
+
+        [[applicationCollection.inputReport.variableItem]]
+        name = 'Clutch 1'
+        usage = ['Generic Desktop','X']
+        logicalValueRange = [0, 255]
+
+        [[applicationCollection.inputReport.variableItem]]
+        name = 'Clutch 2'
+        usage = ['Generic Desktop','Y']
+        logicalValueRange = [0, 255]

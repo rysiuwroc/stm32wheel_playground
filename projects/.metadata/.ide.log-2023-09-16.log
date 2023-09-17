@@ -1,0 +1,771 @@
+2023-09-16 12:43:21,533 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2023-09-16 12:43:21,540 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2023-09-16 12:43:21,542 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:367)
+2023-09-16 12:43:21,542 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:444)
+2023-09-16 12:43:21,543 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:295)
+2023-09-16 12:43:21,543 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2023-09-16 12:43:21,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2023-09-16 12:43:21,544 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:648)
+2023-09-16 12:43:21,545 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:623)
+2023-09-16 12:43:21,545 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4101)
+2023-09-16 12:43:21,546 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2023-09-16 12:43:21,546 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2023-09-16 12:43:21,547 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2023-09-16 12:43:21,547 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2023-09-16 12:43:21,547 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2023-09-16 12:43:21,548 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2023-09-16 12:43:21,548 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-09-16 12:43:21,549 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2023-09-16 12:43:21,549 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2023-09-16 12:43:21,550 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2023-09-16 12:43:21,550 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2023-09-16 12:43:21,550 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2023-09-16 12:43:21,550 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+2023-09-16 12:43:21,551 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+2023-09-16 12:43:21,552 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:716)
+2023-09-16 12:43:21,552 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-09-16 12:43:21,553 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-09-16 12:43:21,553 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2023-09-16 12:43:21,554 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:746)
+2023-09-16 12:43:21,554 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:744)
+2023-09-16 12:43:21,554 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2023-09-16 12:43:21,555 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2023-09-16 12:43:21,556 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:743)
+2023-09-16 12:43:21,556 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2023-09-16 12:43:21,557 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2023-09-16 12:43:21,557 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2023-09-16 12:43:21,558 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2023-09-16 12:43:21,558 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2023-09-16 12:43:21,559 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2023-09-16 12:44:47,312 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 977552824 Bytes (1073741824)
+2023-09-16 12:44:47,733 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498184400 Bytes (1073741824)
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 12:44:47,822 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 12:44:47,823 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 12:44:47,896 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 12:44:47,928 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 12:44:47,943 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 12:44:47,975 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 12:44:47,978 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 12:44:48,004 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 12:44:48,029 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 12:44:48,034 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 12:44:48,062 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 12:44:48,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 12:44:48,088 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 12:44:48,089 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 12:44:48,120 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 12:44:48,123 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 12:44:48,154 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 12:44:48,214 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 12:44:48,218 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 12:44:48,255 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 12:44:48,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 12:44:48,284 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 12:44:48,288 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 12:44:48,293 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 12:44:48,326 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 12:44:48,328 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 12:44:48,354 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 12:44:48,356 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 12:44:48,384 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 12:44:48,387 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 12:44:48,423 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 12:44:48,426 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 12:44:48,452 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 12:44:48,454 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 12:44:48,481 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 12:44:48,489 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 12:44:48,590 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 12:44:48,594 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 12:44:48,621 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 12:44:48,628 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 12:44:48,663 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 12:44:48,666 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 12:44:48,692 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 12:44:48,697 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 12:44:48,725 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 12:44:48,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 12:44:48,768 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 12:44:48,771 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 12:44:48,809 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 12:44:49,082 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 115mS.
+2023-09-16 12:44:49,086 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 12:44:49,160 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 12:44:49,725 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 638mS.
+2023-09-16 12:44:49,725 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 12:44:49,729 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 21:44:45,897 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 787086328 Bytes (1073741824)
+2023-09-16 21:44:46,438 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 830077944 Bytes (1073741824)
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 21:44:46,592 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 21:44:46,593 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 21:44:46,728 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 21:44:46,761 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 21:44:46,781 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 21:44:46,816 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 21:44:46,819 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 21:44:46,845 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 21:44:46,874 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 21:44:46,879 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 21:44:46,909 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 21:44:46,911 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 21:44:46,935 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 21:44:46,938 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 21:44:46,969 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 21:44:46,972 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 21:44:47,004 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 21:44:47,060 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 21:44:47,066 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 21:44:47,104 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 21:44:47,108 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 21:44:47,136 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 21:44:47,152 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 21:44:47,156 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 21:44:47,197 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 21:44:47,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 21:44:47,227 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 21:44:47,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 21:44:47,258 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 21:44:47,261 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 21:44:47,299 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 21:44:47,302 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 21:44:47,330 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 21:44:47,334 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 21:44:47,366 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 21:44:47,374 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 21:44:47,431 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 21:44:47,435 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 21:44:47,461 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 21:44:47,468 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 21:44:47,503 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 21:44:47,505 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 21:44:47,530 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 21:44:47,536 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 21:44:47,564 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 21:44:47,579 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 21:44:47,606 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 21:44:47,609 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 21:44:47,644 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 21:44:47,950 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 143mS.
+2023-09-16 21:44:47,954 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 21:44:48,032 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 21:44:48,694 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 739mS.
+2023-09-16 21:44:48,694 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 21:44:48,699 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:01:18,462 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 759246472 Bytes (1073741824)
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:01:18,563 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:01:18,563 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:01:18,662 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:01:18,694 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:01:18,711 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:01:18,743 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:01:18,746 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:01:18,772 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:01:18,796 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:01:18,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:01:18,829 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:01:18,830 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:01:18,854 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:01:18,856 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:01:18,886 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:01:18,888 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:01:18,921 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:01:18,969 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:01:18,974 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:01:19,012 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:01:19,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:01:19,070 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:01:19,073 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:01:19,077 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:01:19,106 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:01:19,109 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:01:19,137 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:01:19,140 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:01:19,168 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:01:19,171 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:01:19,209 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:01:19,213 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:01:19,239 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:01:19,242 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:01:19,271 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:01:19,278 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:01:19,336 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:01:19,340 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:01:19,367 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:01:19,373 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:01:19,408 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:01:19,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:01:19,435 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:01:19,440 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:01:19,468 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:01:19,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:01:19,509 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:01:19,512 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:01:19,547 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:01:19,823 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 110mS.
+2023-09-16 22:01:19,827 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:01:19,903 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:01:20,469 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 642mS.
+2023-09-16 22:01:20,470 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 22:01:20,476 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:08:15,055 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 733813624 Bytes (1073741824)
+2023-09-16 22:08:15,588 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 782574456 Bytes (1073741824)
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:08:15,668 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:08:15,668 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:08:15,745 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:08:15,790 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:08:15,808 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:08:15,837 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:08:15,840 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:08:15,867 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:08:15,892 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:08:15,896 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:08:15,921 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:08:15,923 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:08:15,947 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:08:15,949 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:08:15,977 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:08:15,979 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:08:16,011 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:08:16,059 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:16,063 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:08:16,100 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:08:16,103 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:08:16,130 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:08:16,132 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:16,137 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:08:16,167 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:08:16,171 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:08:16,198 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:08:16,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:08:16,230 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:08:16,234 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:08:16,271 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:08:16,276 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:08:16,304 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:08:16,307 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:08:16,337 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:08:16,340 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 22:08:16,365 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 22:08:16,368 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 22:08:16,394 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 22:08:16,414 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:08:16,444 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:08:16,447 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:08:16,472 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:08:16,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:08:16,513 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:08:16,516 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:08:16,546 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:08:16,551 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:08:16,578 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:08:16,592 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:08:16,620 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:08:16,622 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:08:16,656 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:08:16,937 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 115mS.
+2023-09-16 22:08:16,940 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:08:17,016 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:08:17,614 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 674mS.
+2023-09-16 22:08:17,615 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:08:17,618 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:08:52,600 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 612451544 Bytes (1073741824)
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:08:52,681 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:08:52,682 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:08:52,754 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:08:52,779 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:08:52,794 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:08:52,822 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:08:52,825 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:08:52,851 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:08:52,875 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:08:52,878 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:08:52,903 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:08:52,905 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:08:52,928 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:08:52,930 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:08:52,958 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:08:52,960 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:08:52,992 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:08:53,039 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:53,044 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:08:53,080 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:08:53,083 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:08:53,108 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:08:53,111 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:53,114 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:08:53,143 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:08:53,145 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:08:53,171 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:08:53,173 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:08:53,200 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:08:53,202 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:08:53,234 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:08:53,236 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:08:53,263 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:08:53,265 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:08:53,294 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:08:53,296 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 22:08:53,321 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 22:08:53,323 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 22:08:53,349 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 22:08:53,356 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:08:53,385 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:08:53,388 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:08:53,414 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:08:53,420 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:08:53,456 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:08:53,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:08:53,483 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:08:53,488 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:08:53,530 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:08:53,553 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:08:53,580 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:08:53,583 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:08:53,615 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:08:53,892 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 108mS.
+2023-09-16 22:08:53,895 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:08:53,971 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:08:54,462 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 567mS.
+2023-09-16 22:08:54,462 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:08:54,466 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:08:59,205 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 634923008 Bytes (1073741824)
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:08:59,288 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:08:59,289 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:08:59,363 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:08:59,388 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:08:59,402 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:08:59,430 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:08:59,433 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:08:59,459 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:08:59,483 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:08:59,487 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:08:59,511 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:08:59,513 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:08:59,539 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:08:59,541 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:08:59,569 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:08:59,571 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:08:59,603 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:08:59,648 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:59,652 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:08:59,688 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:08:59,691 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:08:59,717 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:08:59,719 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:08:59,723 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:08:59,753 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:08:59,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:08:59,783 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:08:59,786 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:08:59,813 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:08:59,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:08:59,847 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:08:59,851 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:08:59,876 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:08:59,879 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:08:59,927 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:08:59,930 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 22:08:59,965 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 22:08:59,968 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 22:08:59,995 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 22:09:00,001 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:09:00,029 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:09:00,032 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:09:00,058 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:09:00,064 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:09:00,099 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:09:00,101 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:09:00,125 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:09:00,130 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:09:00,159 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:09:00,172 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:09:00,200 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:09:00,203 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:09:00,237 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:09:00,524 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 107mS.
+2023-09-16 22:09:00,528 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:09:00,604 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:09:01,082 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 554mS.
+2023-09-16 22:09:01,082 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:09:01,090 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:27:47,350 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 520301528 Bytes (1073741824)
+2023-09-16 22:27:47,421 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 543370200 Bytes (1073741824)
+2023-09-16 22:27:47,885 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 641414104 Bytes (1073741824)
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:27:47,968 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:27:47,969 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:27:48,046 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:27:48,078 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:27:48,092 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:27:48,124 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:27:48,127 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:27:48,154 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:27:48,196 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:27:48,201 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:27:48,242 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:27:48,245 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:27:48,271 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:27:48,275 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c_save
+2023-09-16 22:27:48,311 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c
+2023-09-16 22:27:48,313 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h_save
+2023-09-16 22:27:48,339 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h
+2023-09-16 22:27:48,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:27:48,407 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:27:48,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:27:48,438 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:27:48,444 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:27:48,504 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:27:48,506 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:27:48,532 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:27:48,538 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:27:48,568 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:27:48,582 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:27:48,617 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:27:48,620 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:27:48,656 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:27:48,927 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 102mS.
+2023-09-16 22:27:48,929 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:27:49,003 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:27:49,611 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 682mS.
+2023-09-16 22:27:49,611 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:27:49,613 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:28:45,337 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 824948200 Bytes (1073741824)
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:28:45,435 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:28:45,435 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:28:45,515 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:28:45,540 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:28:45,554 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:28:45,585 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:28:45,587 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:28:45,614 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:28:45,658 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:28:45,663 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:28:45,698 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:28:45,701 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:28:45,727 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:28:45,733 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c_save
+2023-09-16 22:28:45,771 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c
+2023-09-16 22:28:45,774 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h_save
+2023-09-16 22:28:45,801 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h
+2023-09-16 22:28:45,807 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:28:45,835 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:28:45,838 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:28:45,865 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:28:45,871 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:28:45,907 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:28:45,909 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:28:45,933 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:28:45,938 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:28:45,967 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:28:45,982 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:28:46,010 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:28:46,013 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:28:46,047 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:28:46,346 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 99mS.
+2023-09-16 22:28:46,348 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:28:46,424 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:28:46,898 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 550mS.
+2023-09-16 22:28:46,899 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 22:28:46,901 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 22:29:08,491 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,672x402,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:29:11,543 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:29:11,578 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:29:12,139 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:29:16,384 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 467173200 Bytes (1073741824)
+2023-09-16 22:29:16,464 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 490241872 Bytes (1073741824)
+2023-09-16 22:29:16,936 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 536379216 Bytes (1073741824)
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:29:17,004 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:29:17,004 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:29:17,057 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:29:17,081 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:29:17,096 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:29:17,125 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:29:17,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:29:17,154 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:29:17,226 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:29:17,233 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:29:17,270 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:29:17,273 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:29:17,299 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:29:17,304 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c_save
+2023-09-16 22:29:17,342 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usb_otg.c
+2023-09-16 22:29:17,346 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h_save
+2023-09-16 22:29:17,375 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usb_otg.h
+2023-09-16 22:29:17,381 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:29:17,409 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:29:17,412 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:29:17,439 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:29:17,444 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:29:17,479 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:29:17,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:29:17,507 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:29:17,512 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:29:17,542 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:29:17,556 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:29:17,585 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:29:17,588 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:29:17,625 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:29:17,880 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 92mS.
+2023-09-16 22:29:17,882 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:29:17,958 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:29:18,475 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 593mS.
+2023-09-16 22:29:18,476 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 22:29:18,480 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:30:53,377 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:30:55,444 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:30:55,476 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:30:57,413 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:30:57,448 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:30:58,103 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:33:33,387 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 922449984 Bytes (1073741824)
+2023-09-16 22:33:33,448 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 385745400 Bytes (1073741824)
+2023-09-16 22:33:33,840 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 379015872 Bytes (1073741824)
+2023-09-16 22:33:33,920 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:33:33,921 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:33:33,921 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:33:33,997 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:33:34,022 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:33:34,039 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:33:34,067 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:33:34,070 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:33:34,096 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:33:34,121 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:33:34,125 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:33:34,148 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:33:34,151 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:33:34,175 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:33:34,177 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:33:34,205 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:33:34,207 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:33:34,238 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:33:34,286 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:33:34,292 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:33:34,329 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:33:34,332 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:33:34,360 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:33:34,362 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:33:34,366 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:33:34,396 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:33:34,398 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:33:34,426 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:33:34,428 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:33:34,456 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:33:34,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:33:34,489 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:33:34,492 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:33:34,519 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:33:34,521 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:33:34,550 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:33:34,552 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 22:33:34,577 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 22:33:34,579 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 22:33:34,606 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 22:33:34,613 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:33:34,646 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:33:34,649 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:33:34,676 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:33:34,683 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:33:34,718 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:33:34,720 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:33:34,745 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:33:34,750 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:33:34,778 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:33:34,792 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:33:34,820 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:33:34,823 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:33:34,858 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:33:35,168 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 104mS.
+2023-09-16 22:33:35,172 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:33:35,247 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:33:35,803 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 631mS.
+2023-09-16 22:33:35,804 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 1mS.
+2023-09-16 22:33:35,807 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:35:20,112 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,672x402,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-09-16 22:36:08,398 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 422300480 Bytes (1073741824)
+2023-09-16 22:36:08,848 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 408353920 Bytes (1073741824)
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 22:36:08,939 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 22:36:08,940 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 22:36:08,940 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 22:36:09,016 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 22:36:09,041 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 22:36:09,055 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 22:36:09,084 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 22:36:09,086 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 22:36:09,113 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 22:36:09,136 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 22:36:09,141 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 22:36:09,165 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 22:36:09,168 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 22:36:09,192 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 22:36:09,194 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 22:36:09,222 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 22:36:09,224 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 22:36:09,254 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 22:36:09,301 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:36:09,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 22:36:09,342 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 22:36:09,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 22:36:09,371 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 22:36:09,374 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 22:36:09,378 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 22:36:09,406 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 22:36:09,409 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 22:36:09,436 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 22:36:09,439 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 22:36:09,468 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 22:36:09,472 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 22:36:09,504 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 22:36:09,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 22:36:09,534 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 22:36:09,537 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 22:36:09,567 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 22:36:09,570 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 22:36:09,596 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 22:36:09,599 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 22:36:09,626 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 22:36:09,633 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 22:36:09,662 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 22:36:09,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 22:36:09,691 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 22:36:09,697 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 22:36:09,731 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 22:36:09,733 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 22:36:09,758 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 22:36:09,763 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 22:36:09,792 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 22:36:09,826 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 22:36:09,863 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 22:36:09,866 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 22:36:09,900 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 22:36:10,170 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 108mS.
+2023-09-16 22:36:10,173 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 22:36:10,247 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 22:36:10,802 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 629mS.
+2023-09-16 22:36:10,803 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 22:36:10,807 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 23:22:17,605 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 637992680 Bytes (1073741824)
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_DEVICE
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USB_OTG_FS
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-09-16 23:22:17,686 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-09-16 23:22:17,686 [INFO] CodeGenerator:799 - code generatio: config db path: C:\ST\STM32CubeIDE_1.13.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.9.1.202307191849\\db\
+2023-09-16 23:22:17,744 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp_save
+2023-09-16 23:22:17,782 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\license.tmp
+2023-09-16 23:22:17,800 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c_save
+2023-09-16 23:22:17,876 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\gpio.c
+2023-09-16 23:22:17,879 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h_save
+2023-09-16 23:22:17,906 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\gpio.h
+2023-09-16 23:22:17,933 [WARN] IPConfigManager:2937 - Warning: the RefConfig PWREx_EnableUSBVoltageDetector is not available in your config.xml file
+2023-09-16 23:22:17,937 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp_save
+2023-09-16 23:22:17,967 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_vars.tmp
+2023-09-16 23:22:17,969 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp_save
+2023-09-16 23:22:17,993 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_inc.tmp
+2023-09-16 23:22:17,996 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp_save
+2023-09-16 23:22:18,026 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_HalInit.tmp
+2023-09-16 23:22:18,028 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp_save
+2023-09-16 23:22:18,061 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\usb_otg_fs_Msp.tmp
+2023-09-16 23:22:18,108 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 23:22:18,112 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c_save
+2023-09-16 23:22:18,149 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\usart.c
+2023-09-16 23:22:18,152 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h_save
+2023-09-16 23:22:18,180 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\usart.h
+2023-09-16 23:22:18,183 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2023-09-16 23:22:18,187 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c_save
+2023-09-16 23:22:18,217 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.c
+2023-09-16 23:22:18,220 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h_save
+2023-09-16 23:22:18,248 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usb_device.h
+2023-09-16 23:22:18,251 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h_save
+2023-09-16 23:22:18,280 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.h
+2023-09-16 23:22:18,283 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c_save
+2023-09-16 23:22:18,320 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\Target\usbd_conf.c
+2023-09-16 23:22:18,324 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h_save
+2023-09-16 23:22:18,350 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.h
+2023-09-16 23:22:18,353 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c_save
+2023-09-16 23:22:18,382 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_desc.c
+2023-09-16 23:22:18,386 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h_save
+2023-09-16 23:22:18,412 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.h
+2023-09-16 23:22:18,415 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c_save
+2023-09-16 23:22:18,442 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\USB_DEVICE\App\usbd_custom_hid_if.c
+2023-09-16 23:22:18,449 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c_save
+2023-09-16 23:22:18,518 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_it.c
+2023-09-16 23:22:18,522 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h_save
+2023-09-16 23:22:18,567 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_it.h
+2023-09-16 23:22:18,574 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c_save
+2023-09-16 23:22:18,612 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\stm32l4xx_hal_msp.c
+2023-09-16 23:22:18,614 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp_save
+2023-09-16 23:22:18,639 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\MXTmpFiles\system.tmp
+2023-09-16 23:22:18,643 [INFO] CodeEngine:311 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h_save
+2023-09-16 23:22:18,671 [INFO] CodeEngine:335 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\stm32l4xx_hal_conf.h
+2023-09-16 23:22:18,684 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h_save
+2023-09-16 23:22:18,711 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Inc\main.h
+2023-09-16 23:22:18,714 [INFO] CodeEngine:255 - oldGeneratedFile, C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c_save
+2023-09-16 23:22:18,748 [INFO] CodeEngine:279 - Generated code: C:\stm32\stm32wheel_playground\projects\button_press_interrupt\Core\Src\main.c
+2023-09-16 23:22:18,985 [INFO] ProjectBuilder:3064 - Time for Copy HAL[1] : 109mS.
+2023-09-16 23:22:18,989 [INFO] ProjectBuilder:4404 - Project Generator version: 4.1.0
+2023-09-16 23:22:19,063 [INFO] ConfigFileManager:1457 - The Die is : DIE415
+2023-09-16 23:22:19,693 [INFO] ProjectBuilder:4626 - Time for Generating toolchain IDE Files: 704mS.
+2023-09-16 23:22:19,694 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.
+2023-09-16 23:22:19,700 [INFO] ProjectBuilder:2935 - Time for Copy CMSIS : 0mS.

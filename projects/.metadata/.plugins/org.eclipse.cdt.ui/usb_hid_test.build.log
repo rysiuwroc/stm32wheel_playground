@@ -1,0 +1,17 @@
+00:05:52 **** Incremental Build of configuration Debug for project usb_hid_test ****
+make -j24 all 
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CustomHID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_desc.d" -MT"USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc -o "usb_hid_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\stm32\stm32wheel_playground\projects\usb_hid_test\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="usb_hid_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: usb_hid_test.elf
+ 
+arm-none-eabi-size   usb_hid_test.elf 
+arm-none-eabi-objdump -h -S  usb_hid_test.elf  > "usb_hid_test.list"
+   text	   data	    bss	    dec	    hex	filename
+  33464	    284	   4276	  38024	   9488	usb_hid_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: usb_hid_test.list
+ 
+
+00:05:53 Build Finished. 0 errors, 0 warnings. (took 773ms)
+
