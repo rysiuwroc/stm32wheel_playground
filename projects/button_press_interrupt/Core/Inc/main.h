@@ -72,9 +72,6 @@ void Error_Handler(void);
 #define TCK_GPIO_Port GPIOA
 #define Green_LED_Pin GPIO_PIN_15
 #define Green_LED_GPIO_Port GPIOA
-#define Yellow_Button_Pin GPIO_PIN_10
-#define Yellow_Button_GPIO_Port GPIOC
-#define Yellow_Button_EXTI_IRQn EXTI15_10_IRQn
 #define SWO_Pin GPIO_PIN_3
 #define SWO_GPIO_Port GPIOB
 
